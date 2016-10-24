@@ -34,7 +34,7 @@
         android:paddingBottom="12dp"/>
 
     <TextView
-        android:text="25"
+        android:id="@+id/textViewAdd1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -44,5 +44,12 @@
         android:textSize="40sp"
         android:paddingTop="12dp"
         android:paddingBottom="12dp"/>
+
+    <Button
+        android:text="1 Point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAdd1"/>
+
 
 </LinearLayout>
