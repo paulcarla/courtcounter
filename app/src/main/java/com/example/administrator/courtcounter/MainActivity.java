@@ -7,6 +7,9 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private TextView textViewTeam1;
+    private TextView textViewTeam2;
+    int a;
+    int b;
 
 
     @Override
@@ -14,12 +17,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textViewTeam1 = (TextView)findViewById( R.id.textViewAdd1 );
-        textViewTeam1.setText("0");
+        a=0;
+        textViewTeam1.setText(""+a);
+
+        textViewTeam2 = (TextView)findViewById( R.id.textViewAdd2 );
+        a=0;
+        textViewTeam2.setText(""+b);
+
     }
 
     public void clickAdd1(View view) {
-        textViewTeam1.setText("1");
+        a++;
+        textViewTeam1.setText(""+a);
+    }
+    public void clickAdd2(View view) {
+        b++;
+        textViewTeam2.setText(""+b);
     }
 
-
+    public void clickReset(View view) {
+        textViewTeam1.setText("0");
+        textViewTeam2.setText("0");
+        a=0;
+        b=0;
+    }
 }

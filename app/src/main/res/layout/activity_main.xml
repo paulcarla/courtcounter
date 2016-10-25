@@ -4,52 +4,125 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
     android:paddingTop="0dp"
     android:paddingBottom="0dp"
     tools:context="com.example.administrator.courtcounter.MainActivity">
 
-    <TextView
-        android:text="Help Me Team"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="#6eff0000"
-        android:background="#00FFFF"
-        android:textSize="35sp"
-        android:paddingTop="12dp"
-        android:paddingBottom="12dp"/>
+        android:layout_weight="1">
 
-    <TextView
-        android:text="Score"
+        <TextView
+            android:text="Team Help Me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#6eff0000"
+            android:background="#00FFFF"
+            android:textSize="35sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:text="Score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#0000ff"
+            android:background="#FFFF00"
+            android:textSize="28sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/textViewAdd1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#00FF00"
+            android:background="#ff99ff"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <Button
+            android:text="+1 Point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickAdd1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="#0000ff"
-        android:background="#FFFF00"
-        android:textSize="28sp"
-        android:paddingTop="12dp"
-        android:paddingBottom="12dp"/>
+        android:layout_weight="1">
 
-    <TextView
-        android:id="@+id/textViewAdd1"
+        <TextView
+            android:text="Team Save Me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#00FFFF"
+            android:background="#6eff0000"
+            android:textSize="35sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:text="Score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFF00"
+            android:background="#0000ff"
+            android:textSize="28sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/textViewAdd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FF99FF"
+            android:background="#00FF00"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <Button
+            android:text="+1 Point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickAdd2"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="#00FF00"
-        android:background="#ff99ff"
-        android:textStyle="bold"
-        android:textSize="40sp"
-        android:paddingTop="12dp"
-        android:paddingBottom="12dp"/>
+        android:layout_height="wrap_content">
 
-    <Button
-        android:text="1 Point"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="clickAdd1"/>
-
+        <Button
+            android:layout_marginTop="36dp"
+            android:text="Reset Game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickReset"/>
+    </LinearLayout>
 
 </LinearLayout>
