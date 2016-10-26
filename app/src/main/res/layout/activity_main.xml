@@ -23,14 +23,26 @@
         android:layout_weight="1">
 
         <TextView
-            android:text="Team Help Me"
+            android:text="Team 1:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#6eff0000"
+            android:background="#00FFFF"
+            android:textSize="20sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+
+        <TextView
+            android:text="Help Me"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="#6eff0000"
             android:background="#00FFFF"
             android:textSize="35sp"
-            android:paddingTop="12dp"
+            android:paddingTop="0dp"
             android:paddingBottom="12dp"/>
 
         <TextView
@@ -70,14 +82,25 @@
         android:layout_weight="1">
 
         <TextView
-            android:text="Team Save Me"
+            android:text="Team 2:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#00FFFF"
+            android:background="#6eff0000"
+            android:textSize="20sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:text="Save Me"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="#00FFFF"
             android:background="#6eff0000"
             android:textSize="35sp"
-            android:paddingTop="12dp"
+            android:paddingTop="0dp"
             android:paddingBottom="12dp"/>
 
         <TextView
@@ -119,10 +142,10 @@
 
         <Button
             android:layout_marginTop="36dp"
-            android:text="Reset Game"
+            android:text="Game Over"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="clickReset"/>
+            android:onClick="clickGameOver"/>
     </LinearLayout>
 
 </LinearLayout>
