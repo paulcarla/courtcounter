@@ -2,6 +2,7 @@ package com.example.administrator.courtcounter;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
     int a;
     int b;
     AlertDialog gameOverAlert;
+    private MediaPlayer soundFXthing;
+
+
 
 
     @Override
@@ -26,18 +30,24 @@ public class MainActivity extends AppCompatActivity {
         textViewTeam2 = (TextView)findViewById( R.id.textViewAdd2 );
         a=0;
         textViewTeam2.setText(""+b);
+        soundFXthing = MediaPlayer.create(this, R.raw.buttonhitfx);
+        gameOverAlert= new AlertDialog.Builder(MainActivity.this).create();}
 
-        gameOverAlert= new AlertDialog.Builder(MainActivity.this).create();
+    public void playButtonSound(){
 
+    soundFXthing.reset();
+    soundFXthing.start();
     }
 
     public void clickAdd1(View view) {
         a++;
         textViewTeam1.setText(""+a);
+        playButtonSound();
     }
     public void clickAdd2(View view) {
         b++;
         textViewTeam2.setText(""+b);
+        playButtonSound();
     }
 
     public void clickGameOver(View view) {
@@ -51,7 +61,9 @@ public class MainActivity extends AppCompatActivity {
         gameOverAlert.setMessage("The game is a tie!");
         if (a > b) {
             gameOverAlert.setMessage("Team 1 wins");
-        }if (b > a) {
+        }
+
+        if (b > a) {
             gameOverAlert.setMessage("Team 2 wins");
         }
         textViewTeam1.setText("0");
@@ -60,4 +72,7 @@ public class MainActivity extends AppCompatActivity {
         b=0;
         gameOverAlert.show();
     }
+
+
+
 }
