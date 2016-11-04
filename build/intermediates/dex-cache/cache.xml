@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="13aba65ae7878e10c65b8cf38b2573ef1d825e05">
+        sha1="f0a7ce5195fd6845c82fdd3799e3770995c71270">
         <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6c21b5e7bd79326b11887886a9980231886c1813\classes.dex" />
     </item>
     <item
@@ -39,15 +39,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_b63e7424b37673894cec25f70ad86e8036cb5998\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -66,6 +57,51 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a1d79ec73db4d52272120e2416aabb2b3223c5d0">
+        <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2bc76c7a3d19dcead291eb1c8a924df07a9d7e4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_cd5a973258185efc88c7bfe8976305131c78c317\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_b0d51c11afd338446497f631e02e7beb199a25d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_3fa579ec0e302aab7fb08163a31f9f1918c323ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_b63e7424b37673894cec25f70ad86e8036cb5998\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -81,24 +117,6 @@
         revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_c333a4476852119c318c85f27b78e8b3cd6ab934\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3d5dde8511a578e8fdf0844a0228b5ba886941a9">
-        <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2bc76c7a3d19dcead291eb1c8a924df07a9d7e4d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_cd5a973258185efc88c7bfe8976305131c78c317\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -126,24 +144,6 @@
         revision="25.0.0"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
         <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c4d2ef3946c57751e6ccfe545c5bce69afb52334\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_b0d51c11afd338446497f631e02e7beb199a25d0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_3fa579ec0e302aab7fb08163a31f9f1918c323ab\classes.dex" />
     </item>
     <item
         is-multidex="true"

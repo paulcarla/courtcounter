@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     int a;
     int b;
     AlertDialog gameOverAlert;
-    private MediaPlayer soundFXthing;
+    private MediaPlayer soundFX;
 
 
 
@@ -30,24 +30,24 @@ public class MainActivity extends AppCompatActivity {
         textViewTeam2 = (TextView)findViewById( R.id.textViewAdd2 );
         a=0;
         textViewTeam2.setText(""+b);
-        soundFXthing = MediaPlayer.create(this, R.raw.buttonhitfx);
+
+        soundFX = MediaPlayer.create(this, R.raw.buttonhitfx);
         gameOverAlert= new AlertDialog.Builder(MainActivity.this).create();}
 
-    public void playButtonSound(){
 
-    soundFXthing.reset();
-    soundFXthing.start();
-    }
 
     public void clickAdd1(View view) {
+
         a++;
         textViewTeam1.setText(""+a);
-        playButtonSound();
+        soundFX.start();
     }
+
     public void clickAdd2(View view) {
+
         b++;
         textViewTeam2.setText(""+b);
-        playButtonSound();
+        soundFX.start();
     }
 
     public void clickGameOver(View view) {
