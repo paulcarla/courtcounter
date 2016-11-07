@@ -73,6 +73,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="clickAdd1"/>
+
+        <Button
+            android:text="-1 Point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickSub1"/>
     </LinearLayout>
 
     <LinearLayout
@@ -131,6 +137,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="clickAdd2"/>
+
+        <Button
+            android:text="-1 Point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickSub2"/>
     </LinearLayout>
 
     </LinearLayout>

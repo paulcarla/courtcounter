@@ -37,18 +37,34 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void clickAdd1(View view) {
-
         a++;
         textViewTeam1.setText(""+a);
+        soundFX.seekTo(0);
         soundFX.start();
     }
 
     public void clickAdd2(View view) {
-
         b++;
         textViewTeam2.setText(""+b);
+        soundFX.seekTo(0);
         soundFX.start();
     }
+    
+
+    public void clickSub1(View view) {
+        a--;
+        textViewTeam1.setText(""+a);
+        soundFX.seekTo(0);
+        soundFX.start();
+    }
+
+
+    public void clickSub2(View view) {
+        b--;
+        textViewTeam2.setText(""+b);
+        soundFX.seekTo(0);
+        soundFX.start();
+        }
 
     public void clickGameOver(View view) {
         gameOverAlert.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",

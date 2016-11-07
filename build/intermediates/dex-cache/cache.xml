@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f0a7ce5195fd6845c82fdd3799e3770995c71270">
+        sha1="2d32c66262c064ea0d363d36bb92d65443687c4e">
         <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6c21b5e7bd79326b11887886a9980231886c1813\classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a1d79ec73db4d52272120e2416aabb2b3223c5d0">
+        sha1="3e24e5dc48f9a0f8da768714468c536988b34851">
         <dex dex="C:\Users\Administrator\Documents\GitHub\courtcounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2bc76c7a3d19dcead291eb1c8a924df07a9d7e4d\classes.dex" />
     </item>
     <item
