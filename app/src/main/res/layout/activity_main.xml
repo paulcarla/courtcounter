@@ -16,72 +16,77 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1">
-
-        <TextView
-            android:text="Team 1:"
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="#6eff0000"
-            android:background="#00FFFF"
-            android:textSize="20sp"
-            android:paddingTop="12dp"
-            android:paddingBottom="12dp"/>
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Team 1:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#fa8d8d"
+                android:background="#00FFFF"
+                android:textSize="20sp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp" />
 
 
-        <TextView
-            android:text="Help Me"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="#6eff0000"
-            android:background="#00FFFF"
-            android:textSize="35sp"
-            android:paddingTop="0dp"
-            android:paddingBottom="12dp"/>
+            <EditText
+                android:hint="Team Name"
+                android:inputType="text"
+                android:imeOptions = "actionDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#fa8d8d"
+                android:background="#00FFFF"
+                android:textSize="35sp"
+                android:paddingTop="0dp"
+                android:paddingBottom="12dp"
+                android:id="@+id/teamName1" />
 
-        <TextView
-            android:text="Score"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="#0000ff"
-            android:background="#FFFF00"
-            android:textSize="28sp"
-            android:paddingTop="12dp"
-            android:paddingBottom="12dp"/>
+            <TextView
+                android:text="Score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#0000ff"
+                android:background="#FFFF00"
+                android:textSize="28sp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"/>
 
-        <TextView
-            android:id="@+id/textViewAdd1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="#00FF00"
-            android:background="#ff99ff"
-            android:textStyle="bold"
-            android:textSize="40sp"
-            android:paddingTop="12dp"
-            android:paddingBottom="12dp"/>
+            <TextView
+                android:id="@+id/textViewAdd1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#00FF00"
+                android:background="#ff99ff"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"/>
 
-        <Button
-            android:text="+1 Point"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="clickAdd1"/>
+            <Button
+                android:text="+1 Point"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="clickAdd1"
+                android:id="@+id/button" />
 
-        <Button
-            android:text="-1 Point"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="clickSub1"/>
-    </LinearLayout>
+            <Button
+                android:text="-1 Point"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="clickSub1"
+                android:id="@+id/button2" />
+        </LinearLayout>
 
-    <LinearLayout
+        <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -98,8 +103,10 @@
             android:paddingTop="12dp"
             android:paddingBottom="12dp"/>
 
-        <TextView
-            android:text="Save Me"
+        <EditText
+            android:hint="Team Name"
+            android:inputType="text"
+            android:imeOptions = "actionDone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -107,7 +114,8 @@
             android:background="#6eff0000"
             android:textSize="35sp"
             android:paddingTop="0dp"
-            android:paddingBottom="12dp"/>
+            android:paddingBottom="12dp"
+            android:id="@+id/teamName2" />
 
         <TextView
             android:text="Score"

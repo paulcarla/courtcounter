@@ -6,16 +6,20 @@ import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private TextView textViewTeam1;
     private TextView textViewTeam2;
-    int a;
-    int b;
+    private int a;
+    private int b;
     AlertDialog gameOverAlert;
     private MediaPlayer soundFX;
-
+    private EditText team1View;
+    private String team1Name;
+    private EditText team2View;
+    private String team2Name;
 
 
 
@@ -26,10 +30,14 @@ public class MainActivity extends AppCompatActivity {
         textViewTeam1 = (TextView)findViewById( R.id.textViewAdd1 );
         a=0;
         textViewTeam1.setText(""+a);
+        team1View = (EditText) findViewById(R.id.teamName1);
+        team1Name = team1View.getText().toString();
 
         textViewTeam2 = (TextView)findViewById( R.id.textViewAdd2 );
         a=0;
         textViewTeam2.setText(""+b);
+        team2View = (EditText) findViewById(R.id.teamName2);
+        team2Name = team2View.getText().toString();
 
         soundFX = MediaPlayer.create(this, R.raw.buttonhitfx);
         gameOverAlert= new AlertDialog.Builder(MainActivity.this).create();}
@@ -49,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         soundFX.seekTo(0);
         soundFX.start();
     }
-    
+
 
     public void clickSub1(View view) {
         a--;
@@ -75,12 +83,14 @@ public class MainActivity extends AppCompatActivity {
                 });
         gameOverAlert.setTitle("Game Over!");
         gameOverAlert.setMessage("The game is a tie!");
+        team1Name = team2View.getText().toString();
+        team2Name = team2View.getText().toString();
         if (a > b) {
-            gameOverAlert.setMessage("Team 1 wins");
+            gameOverAlert.setMessage(team1Name + " wins");
         }
 
         if (b > a) {
-            gameOverAlert.setMessage("Team 2 wins");
+            gameOverAlert.setMessage(team2Name + " wins");
         }
         textViewTeam1.setText("0");
         textViewTeam2.setText("0");
